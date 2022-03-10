@@ -1,0 +1,76 @@
+:root {
+    font-family: helvetica, sans-serif;
+    font-size: 16px;
+}
+
+body {
+    margin: 0px;
+    height: 100vh;
+}
+
+#content {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header {
+    background-color: white;
+    color: black;
+    padding: 80px;
+    height: min(25vh, 170px);
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+.nav {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 36px;
+}
+
+li {
+    list-style-type: none;
+}
+
+.main {
+    flex: 1;
+    background: url(./hen-and-broccoli.png);
+    background-color:rgb(214, 31, 31);
+}
+
+.title {
+    background-color: white;
+    padding: 16px;
+    margin: 60px 0px 24px 80px;
+    width: max(50vw, 400px);
+    height: 50px;
+    font-size: 2rem;
+    text-transform: uppercase;
+}
+
+.card {
+    background-color: white;
+    padding: 16px;
+    margin: 0px 0px 16px 80px;
+    width: 400px;
+    height: 200px;
+}
+
+.footer {
+    background-color: white;
+    color:rgb(214, 31, 31);
+    padding: 8px;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 0.7rem;
+}
