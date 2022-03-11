@@ -9,7 +9,7 @@ const loadHome = () => {
 
     const card = document.createElement("div");
     card.classList.add("card");
-    card.textContent = "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus perferendis saepe eum rem aspernatur perspiciatis, nobis hic ad voluptates ullam architecto. Quos et dolor nostrum sit cupiditate praesentium, placeat ratione?";
+    card.innerHTML = "When it comes to mealtime, there are always <em>so</em> many choices and <em>so</em> many potential mistakes. <b>Chicken & Broccoli</b> eliminates the unnecessary hassle in your life by providing you with only the essential ingredients to make healthy, lean, undeniable <em><b>gains</b></em>.";
     main.appendChild(card);
 
     return main;
