@@ -1,3 +1,5 @@
 import "./style.css";
 
-console.log("hi fthere");
+
+const content = document.querySelector("#content");
+content.appendChild(loadPage());
