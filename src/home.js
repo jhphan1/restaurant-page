@@ -1,4 +1,4 @@
-const loadPage = () => {
+const loadHome = () => {
     const header = document.createElement("div");
     header.classList.add("header");
     const logo = document.createElement("div");
@@ -22,4 +22,4 @@ const loadPage = () => {
     return header;
 }
 
-export { loadPage };
+export { loadHome };
