@@ -76,9 +76,10 @@ li {
 
 .footer {
     background-color: white;
-    color:rgb(214, 31, 31);
+    color:rgb(107, 107, 107);
     padding: 8px;
     box-sizing: border-box;
-    text-align: center;
     font-size: 0.7rem;
+    display: flex;
+    justify-content: space-around;
 }

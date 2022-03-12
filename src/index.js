@@ -30,7 +30,14 @@ content.appendChild(header);
 // Footer element
 const footer = document.createElement("div");
 footer.classList.add("footer");
-footer.textContent = "Hen and Broccoli icons made by Freepik from www.flaticon.com";
+
+const bgCredit = document.createElement("div");
+bgCredit.textContent = "Meal background image by Pixabay on Pexels.com";
+footer.appendChild(bgCredit);
+
+const iconCredit = document.createElement("div");
+iconCredit.textContent = "Hen and Broccoli icons made by Freepik from www.flaticon.com";
+footer.appendChild(iconCredit);
 
 content.appendChild(footer);
 
