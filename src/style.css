@@ -47,7 +47,12 @@ li {
     font-size: 0.7rem;
 }
 
-.main {
+li:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.homeMain {
     flex: 1;
     background: url(./meal.jpg);
     background-size: cover;

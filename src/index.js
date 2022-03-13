@@ -29,6 +29,31 @@ nav.appendChild(li3);
 
 content.appendChild(header);
 
+li1.addEventListener("click", () => loadPage("home"));
+li2.addEventListener("click", () => loadPage("menu"));
+li3.addEventListener("click", () => loadPage("contact"));
+
+function loadPage(page) {
+    content.removeChild(content.childNodes[1]);
+
+    if (page === "home") {
+        content.insertBefore(loadHome(), footer);
+        li1.style.textDecoration = "underline";
+        li2.style.textDecoration = "none";
+        li3.style.textDecoration = "none";
+    } else if (page === "menu") {
+        content.insertBefore(loadMenu(), footer);
+        li1.style.textDecoration = "none";
+        li2.style.textDecoration = "underline";
+        li3.style.textDecoration = "none";
+    } else if (page === "contact") {
+        content.insertBefore(loadContact(), footer);
+        li1.style.textDecoration = "none";
+        li2.style.textDecoration = "none";
+        li3.style.textDecoration = "underline";
+    }
+}
+
 // Footer element
 const footer = document.createElement("div");
 footer.classList.add("footer");
