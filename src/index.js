@@ -69,4 +69,4 @@ footer.appendChild(iconCredit);
 content.appendChild(footer);
 
 // Import main content
-content.insertBefore(loadContact(), footer);
+content.insertBefore(loadHome(), footer);
