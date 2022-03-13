@@ -84,3 +84,40 @@ li {
     display: flex;
     justify-content: space-around;
 }
+
+/* Below items are all for menu page */
+.menuMain {
+    flex: 1;
+    background: url(./hen-and-broccoli.png);
+    background-color: rgb(255, 231, 151);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 80px;
+    gap: 80px;
+}
+
+.menuCard {
+    padding: 30px;
+    background-color: white;
+}
+
+.item {
+    margin: 16px 0px;
+}
+
+.itemTop {
+    display: flex;
+    justify-content: space-between;
+}
+
+.itemName {
+    font-weight: bold;
+}
+
+.itemPrice {
+    font-style: italic;
+}
+
+.itemText {
+    font-size: 0.7rem;
+}

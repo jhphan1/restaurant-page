@@ -1,6 +1,7 @@
 import "./style.css";
 import { loadHome } from "./home.js";
 import { loadContact } from "./contact.js";
+import { loadMenu } from "./menu.js";
 
 
 const content = document.querySelector("#content");
@@ -43,4 +44,4 @@ footer.appendChild(iconCredit);
 content.appendChild(footer);
 
 // Import main content
-content.insertBefore(loadContact(), footer);
+content.insertBefore(loadMenu(), footer);
