@@ -53,6 +53,12 @@ li {
     background-size: cover;
 }
 
+.contactMain {
+    background: url(./hen-and-broccoli.png);
+    background-color: rgb(255, 231, 151);
+    height: 100%;
+}
+
 .title {
     background-color: white;
     padding: 16px;
@@ -90,6 +96,7 @@ li {
     flex: 1;
     background: url(./hen-and-broccoli.png);
     background-color: rgb(255, 231, 151);
+    height: 100%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     padding: 80px;

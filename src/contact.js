@@ -1,6 +1,6 @@
 const loadContact = () => {
     const main = document.createElement("div");
-    main.classList.add("main");
+    main.classList.add("contactMain");
 
     const title = document.createElement("div");
     title.classList.add("title");

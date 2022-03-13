@@ -44,4 +44,4 @@ footer.appendChild(iconCredit);
 content.appendChild(footer);
 
 // Import main content
-content.insertBefore(loadMenu(), footer);
+content.insertBefore(loadContact(), footer);
